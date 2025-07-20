@@ -14,7 +14,4 @@ resource "azurerm_storage_account" "example" {
   }
 }
 
-resource "azurerm_resource_group" "example" {
-  name     = "example-resources"
-  location = "central india"
-}
+
